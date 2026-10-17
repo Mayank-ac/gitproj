@@ -1,5 +1,11 @@
 
-def main():
-    i,j = int(input())
+import depend as dp
 
-    add(i,j)
+
+
+def main():
+    i, j = map(int, input().split())
+    print(dp.add(i, j))
+
+if __name__ == "__main__":
+    main()
